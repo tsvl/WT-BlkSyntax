@@ -1,0 +1,25 @@
+{
+  "name": "blksyntax",
+  "displayName": "WT-BlkSyntax",
+  "description": "Syntax highlighting for War Thunder .blk files",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.98.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "blk",
+      "aliases": ["blk", "blk"],
+      "extensions": [".blk"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "blk",
+      "scopeName": "source.blk",
+      "path": "./syntaxes/blk.tmLanguage.json"
+    }]
+  }
+}
