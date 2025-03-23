@@ -6,20 +6,34 @@
   "engines": {
     "vscode": "^1.98.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tsvl/WT-BlkSyntax.git"
+  },
+  "license": "MIT",
   "categories": [
     "Programming Languages"
   ],
   "contributes": {
-    "languages": [{
-      "id": "blk",
-      "aliases": ["blk", "blk"],
-      "extensions": [".blk"],
-      "configuration": "./language-configuration.json"
-    }],
-    "grammars": [{
-      "language": "blk",
-      "scopeName": "source.blk",
-      "path": "./syntaxes/blk.tmLanguage.json"
-    }]
+    "languages": [
+      {
+        "id": "blk",
+        "aliases": [
+          "blk",
+          "blk"
+        ],
+        "extensions": [
+          ".blk"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "blk",
+        "scopeName": "source.blk",
+        "path": "./syntaxes/blk.tmLanguage.json"
+      }
+    ]
   }
 }
